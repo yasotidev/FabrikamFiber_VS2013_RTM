@@ -1,0 +1,228 @@
+﻿html {
+    background: #FFF;
+    color: #000;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img { border: 0 }
+
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select, strong, textarea, th, var { font: inherit }
+
+del, ins { text-decoration: none }
+
+li { list-style: none }
+
+caption, th { text-align: left }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+q:before, q:after { content: '' }
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+sup { vertical-align: baseline }
+
+sub { vertical-align: baseline }
+
+legend { color: #000 }
+
+body {
+    color: #696969;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size: .85em;
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+}
+
+strong { font-weight: bold; }
+
+header {
+    background-color: #515151;
+    color: #fff;
+    height: 60px;
+    padding: 10px;
+}
+
+#logindisplay {
+    display: block;
+    font-size: 0.85em;
+    text-align: right;
+}
+
+#logindisplay a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 { font-size: 1.8em; }
+
+h2 { font-size: 1.4em; }
+
+h3 { color: #515151; }
+
+div.maintenance {
+    background-color: #ffee83;
+    border: 1px solid #ffdc00;
+    color: #613f11;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+div.maintenance { font-size: .9em; }
+
+div.dashboard { margin-top: 10px; }
+
+div.dashboard h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+div.dashboard div.ticket-list {
+    background-color: #f5f5f5;
+    height: 290px;
+    padding: 5px;
+    position: absolute;
+    width: 240px;
+}
+
+div.dashboard div.ticket-list h3 {
+    background-color: #CCC;
+    padding-left: 5px;
+}
+
+div.dashboard div.ticket-list table { width: 100%; }
+
+div.dashboard div.ticket-list tr.selected { background-color: #e7e7e7; }
+
+div.dashboard div.ticket-list td {
+    font-size: .9em;
+    padding: 5px;
+}
+
+div.dashboard div.ticket-list td a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}
+
+a, a:open, a:visited {
+    color: #515151;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #515151;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div.dashboard div.ticket-list td.icon {
+    font-size: 1.1em;
+    text-align: center;
+    width: 10px;
+}
+
+div.dashboard div.ticket-detail {
+    background-color: #fff;
+    float: left;
+    height: 290px;
+    margin-left: 260px;
+    padding: 5px;
+    width: 625px;
+}
+
+div.dashboard div.ticket-detail div.error {
+    background-color: #FFBABA;
+    border: 1px solid red;
+    color: #D8000C;
+    color: #613f11;
+    height: 20px;
+    margin-top: 0px;
+    padding: 0px 7px;
+    padding: 10px
+}
+
+.open { color: #f58a1c; }
+
+.closed { color: #26b74a; }
+
+div.dashboard div.ticket-detail div.detail {
+    clear: left;
+    float: left;
+    position: absolute;
+}
+
+div.dashboard div.map {
+    margin-left: 225px;
+    width: 400px;
+}
+
+div.having-issues { margin-top: 20px; }
+
+div.having-issues h3 {
+    background-color: #ccc;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 10px;
+}
+
+div.having-issues h4 {
+    color: #515151;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+div.having-issues ul li {
+    cursor: pointer;
+    margin: 3px;
+    padding: 5px;
+}
+
+div.having-issues ul li:hover { background-color: #e7e7e7; }
+
+div.detailed-issue { padding: 5px 10px; }
+
+div.detailed-issue p { margin: 20px 0px; }
+
+div.detailed-issue img { margin-right: 5px; }
+
+footer {
+    background-color: #fdfdfd;
+    border: solid 1px #ccc;
+    font-size: .9em;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: right;
+}
