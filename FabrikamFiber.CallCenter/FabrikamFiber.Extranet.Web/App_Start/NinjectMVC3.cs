@@ -8,28 +8,28 @@ using Ninject.Web.Mvc;
 
 using WebActivator;
 
-[assembly: PreApplicationStartMethod(typeof (NinjectMVC3), "Start")]
+[assembly: PreApplicationStartMethod(typeof (NinjectMvc3), "Start")]
 ////[assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(FabrikamFiber.Extranet.Web.App_Start.NinjectMVC3), "Stop")]
 
 namespace FabrikamFiber.Extranet.Web
 {
 
-   public class NinjectMVC3
+   public class NinjectMvc3
    {
 
-      private static NinjectMVC3 instance;
+      private static NinjectMvc3 instance;
       private readonly IBootstrapper bootstrapper;
 
-      protected NinjectMVC3(IBootstrapper bootstrapper)
+      protected NinjectMvc3(IBootstrapper bootstrapper)
       {
          this.bootstrapper = bootstrapper;
       }
 
-      protected static NinjectMVC3 Instance
+      protected static NinjectMvc3 Instance
       {
          get
          {
-            return instance ?? (instance = new NinjectMVC3(new Bootstrapper()));
+            return instance ?? (instance = new NinjectMvc3(new Bootstrapper()));
          }
       }
 
